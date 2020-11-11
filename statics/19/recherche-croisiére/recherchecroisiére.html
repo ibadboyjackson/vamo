@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Recherche_croisiére</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.8.18/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i|Roboto|Roboto+Mono:300|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./assets/css/responsive.css">
+	<link rel="stylesheet" href="./assets/css/rc.css">
+</head>
+<body>
+
+
+
+
+
+
+<div>
+		<header>
+			<div class="container-fluid">
+				<div class="top-navbar">
+					<div class="row align-items-center">
+						<div class="col-md-3 text-center">
+							<span class="logo">
+								<img src="./assets/img/logo.png" alt="">
+							</span>
+						</div>
+						<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<div>
+								
+							</div>
+						</div>
+						
+						<div class="col-md-5 d-flex justify-content-center align-items-center contact-buttons">	
+							<a href="#" class="btn btn-outline-success">Ajouter votre Société</a>
+							<a href="#" class="btn btn-success">S'inscrire</a>
+							<a href="#" class="btn btn-success">Se connecter</a>
+						</div>
+					</div>
+				<div>
+				<span class="phone-text">(+212) 000 00 00</span>
+				<span class="text-uppercase contact-text">contactez-nous</span>
+								
+				
+				</div>
+
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid bottom-navbar">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="Hôtels.html">Hôtels</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vacances</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vols</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Croisière</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Location de voiture</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#">Offres</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Médicals</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Humanitaires</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Ma carte</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0 form-search">
+						<div class="input-group">
+							<input type="text" class="form-control">
+							<div class="input-group-append">
+								<button class="btn" type="button">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+					</form>
+				</div>
+			</nav>
+
+			<div class="header">
+		 	<div class="row">
+			<div class="col-md-4">
+			<div class="form-group">
+			<span class="title">Méditerranée avec toutes les compagnies </span>
+			<p>Départ du11/04/2019 au 11/05/2019 durée indifférente</p>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="form-group">
+			</div>
+			</div>				
+			<div class="col-md-4">
+			<div class="form-group">
+			<button class="btn btn-success btn-success-light form-control">Chercher &nbsp;</button>
+			</div>
+			</div>
+			<div>
+			</div>
+			</div>
+		  </div>
+		  </header>
+		  <br>
+		  <!--menu-->
+<div>
+<div class="main">
+<div class="row">
+	<div class="col-md-3">
+	<div class="menu">
+		<h4>Destination</h4>
+		<form>
+  <fieldset>
+    <input type="checkbox" id="first">
+      <label>Indifférent</label>
+     <input type="checkbox" id="second" >
+      <label for="second">Méditerrenée</label>
+     <input type="checkbox" id="third">
+      <label for="third">Méditerrannée Occidentale</label>
+       <input type="checkbox" id="first">
+      <label for="first">Asie</label>
+    </fieldset>
+</form>
+<div class="trait_horizontal"><hr class="hr"></div>
+	<br>
+<h4>Compagniés</h4>
+<form>
+  <fieldset>
+    <input type="checkbox" id="first">
+      <label for="first">Celebrity Cruise</label>
+     <input type="checkbox" id="second" >
+      <label for="second">Costa Croisiére</label>
+     <input type="checkbox" id="third">
+      <label for="third">Cabriolet</label>
+       <input type="checkbox" id="first">
+      <label for="first">Croisi Europee</label>
+     <input type="checkbox" id="second">
+      <label for="second">Holland America Line</label>
+     <input type="checkbox" id="third">
+      <label for="third">MSC Croisiére</label>
+      <input type="checkbox" id="third">
+      <label for="third">Pullmantour</label>
+      <input type="checkbox" id="third">
+      <label for="third">Oceania Cruise</label>
+      <input type="checkbox" id="third">
+      <label for="third">Star Clippers</label>
+    </fieldset>
+</form>
+<div class="trait_horizontal"><hr class="hr"></div>
+<h4>Port de départ</h4>
+<form>
+  <fieldset>
+    <input type="checkbox" id="first" name="fruit-1" value="cerise">
+      <label for="first">Barcelone</label>
+     <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Marseille</label>
+     <input type="checkbox" id="third" name="fruit-3" value="fraise">
+      <label for="third">Venise</label>
+       <input type="checkbox" id="first" name="fruit-1" value="cerise">
+      <label for="first">Nice</label>
+     <input type="checkbox" id="second" name="fruit-2" value="banane">
+      <label for="second">Savone</label>
+    </fieldset>
+</form> 
+<div class="trait_horizontal"><hr class="hr"></div>
+<h3>Type de cabine</h3>
+<form>
+  <fieldset>
+    <input type="checkbox" id="second" name="fruit-2">
+      <label for="second">Interieur</label>
+     <input type="checkbox" id="second" name="fruit-2">
+      <label for="second">Exterieur</label>
+     <input type="checkbox" id="third">
+      <label for="third">Balcon</label>
+       <input type="checkbox" id="first">
+      <label for="first">Suite</label>
+    </fieldset>
+</form> 
+<div class="trait_horizontal"><hr class="hr"></div>
+<h5>Service</h5>
+<form>
+  <fieldset>
+    <input type="checkbox" id="first">
+      <label for="first">Cinema</label>
+     <input type="checkbox" id="second">
+      <label for="second">Club</label>
+        <input type="checkbox" id="second">
+      <label for="second">souna</label>
+        <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">CLUB Enfants</label>
+        <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Gymnase</label>
+        <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Hammams</label>
+        <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Massage</label>
+        <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Tennis</label>
+    </fieldset>
+</form> 
+</div>
+	</div>
+	<div class="col-md-8">
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<div id="vertical-line"></div>
+				<img src="./assets/img/Layer-39.png">
+			<div class="vl"></div>
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+				<button type="button" class="btn btn-light">Selectionner</button>
+		
+			</div>
+		</div>
+	</div>
+	<br>
+<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="./assets/img/Layer-39.png">
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+				<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<div id="vertical-line"></div>
+				<img src="./assets/img/Layer-39.png">
+			<div class="vl"></div>
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+			<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="./assets/img/Layer-39.png">
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+			<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<div id="vertical-line"></div>
+				<img src="./assets/img/Layer-39.png">
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+            Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i>Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i>Transfert</span>
+			</div>
+			<div class="trait_dessus" id="trait"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+				<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="assets/img/Layer-39.png">
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+        <div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+			<button type="button" class="btn btn-light">Selectionner</button>			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="./assets/img/Layer-39.png">
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="./assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+				<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-3">
+				<div id="vertical-line"></div>
+				<img src="assets/img/Layer-39.png">
+			<div class="vl"></div>
+			</div>
+			<div class="col-sm-6">
+		<h5 class="text-uppercase">Croisière Méditerranée Occidentale</h5>
+		<p>8 jours - Départ de Marseille</p>
+		<p>Savone - Naples - Palermo - Ibiza - Ibiza - Palma de
+Majorque - Barcelone - Savone</p>
+			<div class="contact-info">
+			<span><i class="fa fa-cutlery" aria-hidden="true"></i> Pension complète</span>
+				<span><i class="fa fa-bus" aria-hidden="true"></i> Transfert</span>
+			</div>
+			<div class="trait_dessus"><hr></div>
+			<div class="date">
+			<span class="date1">15/03/2019</span>
+			<span class="date2">20/09/2019</span>
+			<span class="date1">18/05/2019</span>
+			
+		</div>
+<div class="inner"></div>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#"><img src="assets/img/logo_1.png" id="logo"></a>
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<div style="margin-left:50px;">à partir de </div>
+				<span class="price">299 €</span>
+				<P>Montant Total</P>
+		<button type="button" class="btn btn-light">Selectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>	
+	<button class="button">Voir plus de croisières</button>
+</div>
+</div>
+</div>
+<br><br>
+
+
+
+
+
+<section class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 logo-footer">
+						<div id="cercle">
+				<img src="assets/img/logo-meduim.png" class="logo-meduim" alt="">
+			</div>
+					</div>
+					<div class="col-md-3 contact">
+						<h3>Contacts</h3>
+						<div class="contact-info">
+							<p><span class="fa fa-map-marker"></span>divhiuvhvheuvhehvhvhviojv</p>
+							<p><span class="fa fa-phone"></span>(+212) 000 000</p>
+							<p><span class="fa fa-envelope"></span>cgsccvjvvn@hvdvv.com</p>
+						</div>
+					</div>
+					<div class="col-md-3 geleries">
+						<h3>Galeries</h3>
+						<div class="row">
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-1.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-2.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-3.png" alt="">
+							</div>
+						</div>
+						<div class="row mt-15">
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-4.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-5.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="assets/img/img-footer-6.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 newsletters">
+						<h3>Newsletters</h3>
+						<p>Joignez-vous à notre newsletter</p>
+						<div class="input-group with-icon-right">
+							<input type="text" class="form-control">
+							<div class="input-group-append">
+								<button class="btn btn-success" type="submit"><i class="fa fa-arrow-circle-right"></i></button> 
+							</div>
+						</div>
+						<div class="social-links">
+						    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+						    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+						    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!--bottom-footer-->
+<footer class="footer-bottom">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">À propos de nous</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Mentions légales</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Besoin d'aide ?</a>
+						</li>
+					</ul>
+					<div class="my-2 my-lg-0">
+						<img src="./assets/img/cards-footer.png" alt="">
+					</div>
+				</div>
+			</nav>
+		</footer>
+		
+		
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="./assets/js/owl.carousel.min.js"></script>
+	<script src="./assets/js/app.js"></script>
+
+</body>
+</html>

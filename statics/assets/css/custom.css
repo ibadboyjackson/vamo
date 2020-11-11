@@ -1,0 +1,308 @@
+  #logo img{padding-right: 27px;
+;}
+            .float-right{float: right;}
+            header .social-icon {padding: 35px 0 0 0;}
+            .form-searchtop {
+display: inline-block;
+width: 80%;
+height: 45px;
+/* font-size: 12px; */
+line-height: 1.43;
+line-height: 1.43;
+background-color: transparent;
+background-image: none;
+border-radius: 11px;
+box-shadow: none;
+/* margin-bottom: 20px; */
+padding: 12px 15px;
+border: 1px solid #ccc;
+background: #fff;
+-webkit-transition: .3s;
+transition: .3s;
+font-family: "Roboto", sans-serif;
+}
+.welcome-image-area5 {
+position: relative;
+height: 70%;
+}
+.style_btn2 {
+width: 150px;
+height: 38px;
+overflow: hidden;
+transition: .5s;
+position: relative;
+display: inline-block;
+border-radius: 20px;
+vertical-align: middle;
+margin-top: 35px;
+margin-left: 10px;
+color: #fff;
+cursor: pointer;
+}
+.find-widget .text-box-wrapper .tb-input {
+line-height: 34px;
+position: relative;
+z-index: 1;
+width: 175px;
+height: 35px;
+padding: 0 2em 0 20px;
+text-align: left;
+border: 1px solid #cecece;
+border-radius: 20px;
+background-color: transparent;
+color: #bbbbbb;}
+.tab-search .tab-btn-wrapper {
+width: calc((75% - 5px) / 6) !important;}
+.tab-search .tab-btn-wrapper .tab-btn {
+font-size: 1.26rem;}
+.tab-search-default .find-widget {
+padding: 0;
+}
+.main .vy-module--equal .row [class*=col-] .vy-promobox {
+height: 100%;
+display: block;
+}
+.vy-promobox {
+display: block;
+overflow: hidden;
+min-height: 320px;
+border: 1px solid #ddd;
+position: relative;
+background-color: #fff;
+border: 3px solid #ededed;
+border-radius: 8px;
+font-size: 14px;
+padding: 0;
+line-height: 1.2;
+}
+.vy-promobox .box__banner img {
+width: 100%;
+position: absolute;
+}
+.vy-promobox .box__banner {
+min-height: 150px;
+position: relative;
+overflow: hidden;
+}
+.vy-promobox .box__banner .box__info {
+top: 0;
+width: 77%;
+height: 100%;
+padding: 20px 15px;
+display: block;
+position: relative;
+min-height: 150px;
+}
+.vy-promobox--headergradient .box__banner .box__info {
+background: linear-gradient(135deg, white 0%, rgba(255, 255, 255, 0.4) 100%);
+}
+.box__content {
+padding: 15px;}
+.vy-promobox .box__content {
+padding-top: 0;}
+.vy-promobox .box__banner .box__info .box__title {
+margin: 0;
+color: #666;
+padding-top: 0;
+font-size: 24px;
+font-weight: bolder;
+padding-bottom: 15px;
+letter-spacing: 1px;
+}
+.vy-promobox .box__banner .box__info .box__list {
+line-height: 24px;
+font-size: 16px;
+flex-direction: column;
+list-style-type: none;
+
+}
+.vy-promobox .box__banner .box__info .box__list li {
+color: #333;
+width: 100%;
+max-width: 100%;
+padding: 5px 0;
+font-size: 13px;
+
+}
+.vy-promobox .box__banner .box__info .box__list li [class*=vy-icon-] {
+font-size: 20px;
+margin-right: 5px;
+vertical-align: sub;
+}
+[class^=vy-icon-], [class*=" vy-icon-"] {
+white-space: nowrap;
+}           
+.vy-promobox .box__content__cta .price {
+font-size: 24px;
+margin-right: 30px;
+margin-bottom: 0;
+}
+.vy-promobox .box__content__cta .price, .vy-promobox .box__content__cta .mv_button {
+display: inline-block;
+}
+.price {
+font-weight: 600;
+}
+.price__extra-text {
+font-weight: 400;
+color: #666;
+}
+.price__decimals {
+font-size: .66em;
+vertical-align: bottom;
+} 
+.vy-promobox .box__content__cta .price .price-currency {
+margin: 0 5px;
+font-size: 24px;
+color: #666;
+font-family: "BrandonText-Medium",Calibri,Verdana;
+top: 4px;
+position: relative;
+}
+
+.vy-promobox .box__content__cta .mv_button {
+max-width: 280px;
+padding: 10px 49px 10px 35px;
+color: #333;
+}
+.vy-promobox .box__content__cta .price, .vy-promobox .box__content__cta .mv_button {
+display: inline-block;
+}
+.fa-plane:before {
+color: green;
+}
+.fa-check-circle:before {
+content: "\f17c";
+color: white;
+background: rgb(0, 173, 0);
+border-radius: 20px;
+font-size: 20px;
+margin-right: 10px}
+.mv_button {
+display: inline-block;
+cursor: pointer;
+outline: 0;
+text-align: center;
+text-decoration: none;
+box-sizing: border-box;
+text-decoration: none !important;
+font-size: 16px;
+padding: 11px 35px;
+color: #666;
+border-radius: 50px;
+transition: all .15s ease-in;
+border: 2px solid #fc0;
+background-color: #fc0;
+font-family: "BrandonText-Regular",Calibri,Verdana;
+font-weight: 600 !important;
+white-space: initial;
+line-height: 1.3em;
+}
+.mv_button.size-lg {
+font-size: 18px;
+padding: 16px 35px;
+border-radius: 50px;
+}
+.vy-promobox .box__content__cta .mv_button {
+display: inline-block;
+}
+.mv_button.icon-right.size-lg {
+position: relative;
+font-family: "BrandonText-Regular",Calibri,Verdana !important;
+padding-right: 45px;
+}
+.vy-login--register {
+background: #eee;
+text-align: center;
+font-size: 12px;}
+.vy-login {
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: none;
+min-height: 320px;
+padding: 0 20px 5px;
+background-color: #f8f8f8;
+}
+.vy-login__content {
+font-size: 14px;
+}
+.vy-login__content .vy-login__header {
+padding: 10px 0;
+position: relative;
+text-align: center;
+border-bottom: 1px dotted #ccc;
+}
+.vy-login__content .vy-login__header [class*=vy-icon-] {
+left: 50%;
+top: 50%;
+position: absolute;
+-webkit-transform: translateY(-50%) translateX(-50%);
+-moz-transform: translateY(-50%) translateX(-50%);
+-ms-transform: translateY(-50%) translateX(-50%);
+-o-transform: translateY(-50%) translateX(-50%);
+transform: translateY(-50%) translateX(-50%);
+font-size: 27px;
+}
+vy-login--register .vy-login__main {
+padding: 15px 0 0;
+}
+.vy-login--register .vy-login__main .title {
+font-size: 14px;
+}
+.vy-login__content .vy-login__main .title {
+margin-top: 10px;
+padding-top: 0;
+font-weight: bold;
+font-family: "BrandonText-Medium",Calibri,Verdana;
+}
+.vy-login__content .vy-login__list {
+width: 90%;
+margin: 0 auto;
+text-align: left;
+list-style-type: none; 
+}
+.vy-login .vy-login__footer {
+margin-top: 10px;
+text-align: center;
+position: relative;
+}
+.vy-login--register .vy-login__footer .mv_button {
+margin-top: 0;
+}
+.vy-login .vy-login__footer .mv_button {
+width: 250px;
+padding: 10px 0;
+margin: 30px 15px 12px 15px;
+}
+.vy-login a {
+color: #ffffff;
+}
+.vy-acuerdos-banner-module__item img {
+display: block;
+max-width: 100%;
+margin: 0 auto;
+border-radius: 5px;
+height: 373px;
+
+}
+.vy-login__header span {
+color: #000;
+font-weight: bold;
+font-family: "BrandonText-Regular",Calibri,Verdana;
+font-size: 25px;
+padding-left: 7px;
+}
+footer .widget ul i {
+color: #fff;
+background: green;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+/* padding-right: 20px; */
+}
+
+footer .widget ul i {top: 0px;
+left: -7Px;}

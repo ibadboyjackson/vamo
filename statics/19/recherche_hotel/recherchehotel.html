@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TemplateVamoAfriqua</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.8.18/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i|Roboto|Roboto+Mono:300|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./asset/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./asset/css/owl.theme.default.min.css">
+	<!--<link rel="stylesheet" href="./asset/css/main.css">-->
+	<link rel="stylesheet" href="./asset/css/responsive.css">
+	<link rel="stylesheet" href="./asset/css/recherchehotel.css">
+</head>
+<body>
+	<div>
+		<header>
+			<div class="container-fluid">
+				<div class="top-navbar">
+					<div class="row align-items-center">
+						<div class="col-md-3 text-center">
+							<span class="logo">
+								<img src="./asset/img/logo.png" alt="">
+							</span>
+						</div>
+						<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<div>
+								
+							</div>
+						</div>
+						
+						<div class="col-md-5 d-flex justify-content-center align-items-center contact-buttons">	
+							<a href="#" class="btn btn-outline-success">Ajouter votre Société</a>
+							<a href="#" class="btn btn-success">S'inscrire</a>
+							<a href="#" class="btn btn-success">Se connecter</a>
+						</div>
+					</div>
+				<div>
+				<span class="phone-text">(+212) 000 00 00</span>
+				<span class="text-uppercase contact-text">contactez-nous</span>
+								
+				
+				</div>
+
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid bottom-navbar">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="Hôtels.html">Hôtels</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vacances</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vols</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Croisière</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Location de voiture</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#">Offres</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Médicals</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Humanitaires</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Ma carte</a>
+						</li>
+					</ul>
+						<form class="form-inline my-2 my-lg-0 form-search">
+						<div class="input-group">
+							<input type="text" class="form-control">
+							<div class="input-group-append">
+								<button class="btn" type="button">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+					</form>
+				</div>
+			</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="header">
+		 	<div class="row">
+			<div class="col-md-3">
+			<div class="form-group">
+			<input type="text" class="form-control" placeholder="Paris">
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="form-group">
+				<div class="input-group registration-date-time">
+            		<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+            		<input class="form-control" name="registration_date" id="registration-date" type="date">
+            	 </span>
+            	</div>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="form-group">
+			<input type="text" class="form-control" placeholder="3 Personnes">
+			</div>
+			</div>				
+			<div class="col-md-3">
+			<div class="form-group">
+			<button class="btn btn-success btn-success-light form-control">Chercher &nbsp;</button>
+			</div>
+			</div>
+			<div>
+			</div>
+			</div>
+		  </div>
+		</div>
+		</header>
+		<br>
+		<br>
+	
+	
+<!--menu-->
+<div>
+<div class="main">
+<div class="row">
+<div class="col-md-3">
+	<div class="menu">
+		<h3>Trier par</h3>
+	<select id="monselect" class="border-top" style="margin-left:60px;border: 1px solid #9acc54;">
+  <option value="valeur1">Valeur 1</option> 
+  <option value="valeur2" >Valeur 2</option>
+  <option value="valeur3" selected>Meilleur prix </option>
+</select>
+<div class="trait_dessus"><hr></div> 
+	<br>
+<h3>Catégorie</h3>
+<form>
+  <fieldset>
+    <input type="checkbox" id="first">
+      <label for="first">5 étoiles</label>
+     <input type="checkbox" id="second" >
+      <label for="second">4 étoiles</label>
+     <input type="checkbox" id="third">
+      <label for="third">3 étoiles</label>
+       <input type="checkbox" id="first">
+      <label for="first">2 étoiles</label>
+    </fieldset>
+</form>
+<div class="trait_dessus"><hr></div>
+<form>
+	<h3>Budget</h3>
+	<div class="budget1"></div>
+	<hr class="new1">
+	<div class="budget2"></div>
+	<div class="trait_dessus"><hr></div>
+</form>
+<h3>Nom de l’hôtel</h3>
+<form>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+       <button class="btn" type="button">
+		<i class="fa fa-search"></i>
+	</button></form>
+	<div class="trait_dessus"><hr></div>
+<h3>Formules</h3>
+<form>
+    <input type="checkbox" id="first" name="fruit-1" value="cerise">
+      <label for="first">Hébergement seull</label>
+     <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Hébergement+petit dééj</label>
+     <input type="checkbox" id="third" name="fruit-3" value="fraise">
+      <label for="third">Demi pension</label>
+       <input type="checkbox" id="first" name="fruit-1" value="cerise">
+      <label for="first">Pension complet</label> 
+  
+</form> 
+<div class="trait_dessus"><hr></div>
+<h3>Services</h3>
+<form>
+  <fieldset>
+    <input type="checkbox" id="first" name="fruit-1" value="cerise">
+     <label for="first">Wi-Fi gratuit </label>
+     <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Restaurant</label>
+      <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Piscine</label>
+      <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Parking gratuit</label>
+      <input type="checkbox" id="second" name="fruit-2" value="banane" >
+      <label for="second">Spa</label>
+    </fieldset>
+</form> 
+</div>
+	</div>
+	<div class="col-md-8">
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/135098329.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/hotels.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/135098329.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/Hotel-City-Central_Eingang_F9A0482-HDR---Kleiner-2.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/135098329.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<div class="contenu">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./asset/img/Hotel-City-Central_Eingang_F9A0482-HDR---Kleiner-2.jpg">
+			</div>
+			<div class="col-sm-5">
+			<p class="text-uppercase"><span class="title">Hotel Hilton and Resorts</span>
+			<p><span class="fa fa-map-marker" style="color:#9acc54;"></span>Adresse</>
+			</p>
+			<p class="para2">Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably. Carriage we husbands advanced an perceive greatest expense on demesne ye he</p>
+			<div class="trait_dessus"><hr></div>
+			<div class="row">
+				<div class="col-md-3">
+				<span class="with-icon-right"><i class="fa fa-check-circle">
+				</i> Petit déjeuner inclus</i></span>
+		</div>
+		<div class="col-md-3">
+		<span><div class="vl"></div></span></div>
+		<div class="col-md-3">
+		<span class="with-icon-right"><i class="fa fa-check-circle"></i> Wifi gratuit</i></span>
+	 </div>
+		</div>
+			<div class="inner"></div>
+			</div>
+			<div class="col-sm-3">
+
+			<div class="rating">
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			   <span>☆</span>
+			</div>
+				<h4 class="text-center"> 299 €</h4>
+				<p class="text-center">pour nuit</p>
+			<button type="button" class="btn btn-light">Sélectionner</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>	
+		<button class="button">Voir plus d’hôtels</button>
+</div>
+</div>
+
+<br><br>
+</div>
+
+</div>
+</div>
+<br><br>
+<section class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 logo-footer">
+						<div id="cercle">
+				<img src="./asset/img/logo-meduim.png" class="logo-meduim" alt="">
+			</div>
+					</div>
+					<div class="col-md-3 contact">
+						<h3>Contacts</h3>
+						<div class="contact-info">
+							<p><span class="fa fa-map-marker"></span>divhiuvhvheuvhehvhvhviojv</p>
+							<p><span class="fa fa-phone"></span>(+212) 000 000</p>
+							<p><span class="fa fa-envelope"></span>cgsccvjvvn@hvdvv.com</p>
+						</div>
+					</div>
+					<div class="col-md-3 geleries">
+						<h3>Galeries</h3>
+						<div class="row">
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-1.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-2.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-3.png" alt="">
+							</div>
+						</div>
+						<div class="row mt-15">
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-4.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-5.png" alt="">
+							</div>
+							<div class="col-4 col-4 col-2">
+								<img src="./asset/img/img-footer-6.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 newsletters">
+						<h3>Newsletters</h3>
+						<p>Joignez-vous à notre newsletter</p>
+						<div class="input-group with-icon-right">
+							<input type="text" class="form-control">
+							<div class="input-group-append">
+								<button class="btn btn-success" type="submit"><i class="fa fa-arrow-circle-right"></i></button> 
+							</div>
+						</div>
+						<div class="social-links">
+						    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+						    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+						    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+		<!--b0ttom-footer-->
+<footer class="footer-bottom">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">À propos de nous</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Mentions légales</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Besoin d'aide ?</a>
+						</li>
+					</ul>
+					<div class="my-2 my-lg-0">
+						<img src="./asset/img/cards-footer.png" alt="">
+					</div>
+				</div>
+			</nav>
+		</footer>
+		
+		
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="./asset/js/owl.carousel.min.js"></script>
+	<script src="./asset/js/app.js"></script>
+</body>
+</html>
